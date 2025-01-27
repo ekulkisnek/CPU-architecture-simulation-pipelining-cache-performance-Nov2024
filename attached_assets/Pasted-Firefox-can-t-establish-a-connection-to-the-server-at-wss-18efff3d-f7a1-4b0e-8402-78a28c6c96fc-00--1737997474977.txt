@@ -1,0 +1,195 @@
+Firefox can’t establish a connection to the server at wss://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/. useSimulation.ts:57:14
+Uncaught Error: `Tooltip` must be used within `TooltipProvider`
+    useContext2 createContext.tsx:75
+    Tooltip Tooltip.tsx:162
+    React 17
+    type use-browser-location.js:73
+    navigate use-browser-location.js:49
+    useLocationFromRouter index.js:93
+    ref react-deps.js:38
+    onClick index.js:284
+    ref react-deps.js:38
+    React 23
+    <anonymous> main.tsx:6
+chunk-PIMNZ2IF.js:44:13
+Uncaught Error: `Tooltip` must be used within `TooltipProvider`
+    useContext2 createContext.tsx:75
+    Tooltip Tooltip.tsx:162
+    React 17
+    type use-browser-location.js:73
+    navigate use-browser-location.js:49
+    useLocationFromRouter index.js:93
+    ref react-deps.js:38
+    onClick index.js:284
+    ref react-deps.js:38
+    React 23
+    <anonymous> main.tsx:6
+chunk-PIMNZ2IF.js:44:13
+Uncaught Error: `Tooltip` must be used within `TooltipProvider`
+    useContext2 createContext.tsx:75
+    Tooltip Tooltip.tsx:162
+    React 17
+    type use-browser-location.js:73
+    navigate use-browser-location.js:49
+    useLocationFromRouter index.js:93
+    ref react-deps.js:38
+    onClick index.js:284
+    ref react-deps.js:38
+    React 23
+    <anonymous> main.tsx:6
+chunk-PIMNZ2IF.js:44:13
+Uncaught Error: `Tooltip` must be used within `TooltipProvider`
+    useContext2 createContext.tsx:75
+    Tooltip Tooltip.tsx:162
+    React 17
+    type use-browser-location.js:73
+    navigate use-browser-location.js:49
+    useLocationFromRouter index.js:93
+    ref react-deps.js:38
+    onClick index.js:284
+    ref react-deps.js:38
+    React 23
+    <anonymous> main.tsx:6
+chunk-PIMNZ2IF.js:44:13
+Uncaught Error: `Tooltip` must be used within `TooltipProvider`
+    useContext2 createContext.tsx:75
+    Tooltip Tooltip.tsx:162
+    React 17
+    type use-browser-location.js:73
+    navigate use-browser-location.js:49
+    useLocationFromRouter index.js:93
+    ref react-deps.js:38
+    onClick index.js:284
+    ref react-deps.js:38
+    React 23
+    <anonymous> main.tsx:6
+chunk-PIMNZ2IF.js:44:13
+Uncaught Error: `Tooltip` must be used within `TooltipProvider`
+    useContext2 createContext.tsx:75
+    Tooltip Tooltip.tsx:162
+    React 18
+    type use-browser-location.js:73
+    navigate use-browser-location.js:49
+    useLocationFromRouter index.js:93
+    ref react-deps.js:38
+    onClick index.js:284
+    ref react-deps.js:38
+    React 23
+    <anonymous> main.tsx:6
+chunk-PIMNZ2IF.js:44:13
+Uncaught Error: `Tooltip` must be used within `TooltipProvider`
+    useContext2 createContext.tsx:75
+    Tooltip Tooltip.tsx:162
+    React 18
+    type use-browser-location.js:73
+    navigate use-browser-location.js:49
+    useLocationFromRouter index.js:93
+    ref react-deps.js:38
+    onClick index.js:284
+    ref react-deps.js:38
+    React 23
+    <anonymous> main.tsx:6
+chunk-PIMNZ2IF.js:44:13
+Uncaught Error: `Tooltip` must be used within `TooltipProvider`
+    useContext2 createContext.tsx:75
+    Tooltip Tooltip.tsx:162
+    React 18
+    type use-browser-location.js:73
+    navigate use-browser-location.js:49
+    useLocationFromRouter index.js:93
+    ref react-deps.js:38
+    onClick index.js:284
+    ref react-deps.js:38
+    React 23
+    <anonymous> main.tsx:6
+chunk-PIMNZ2IF.js:44:13
+Uncaught Error: `Tooltip` must be used within `TooltipProvider`
+    useContext2 createContext.tsx:75
+    Tooltip Tooltip.tsx:162
+    React 18
+    type use-browser-location.js:73
+    navigate use-browser-location.js:49
+    useLocationFromRouter index.js:93
+    ref react-deps.js:38
+    onClick index.js:284
+    ref react-deps.js:38
+    React 23
+    <anonymous> main.tsx:6
+chunk-PIMNZ2IF.js:44:13
+Uncaught Error: `Tooltip` must be used within `TooltipProvider`
+    useContext2 createContext.tsx:75
+    Tooltip Tooltip.tsx:162
+    React 18
+    type use-browser-location.js:73
+    navigate use-browser-location.js:49
+    useLocationFromRouter index.js:93
+    ref react-deps.js:38
+    onClick index.js:284
+    ref react-deps.js:38
+    React 23
+    <anonymous> main.tsx:6
+chunk-PIMNZ2IF.js:44:13
+The above error occurred in the <Tooltip> component:
+
+Tooltip@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=571edeae:2317:7
+div
+DefaultNode@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/reactflow.js?v=571edeae:3769:19
+div
+NodeWrapper@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/reactflow.js?v=571edeae:5389:23
+div
+NodeRenderer@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/reactflow.js?v=571edeae:5645:123
+div
+Viewport@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/reactflow.js?v=571edeae:6106:18
+div
+Pane<@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/reactflow.js?v=571edeae:4877:36
+div
+ZoomPane@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/reactflow.js?v=571edeae:4504:16
+FlowRenderer@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/reactflow.js?v=571edeae:5582:20
+GraphView@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/reactflow.js?v=571edeae:6222:17
+ReactFlowProvider@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/reactflow.js?v=571edeae:6515:25
+Wrapper@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/reactflow.js?v=571edeae:6523:15
+div
+ReactFlow<@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/reactflow.js?v=571edeae:6554:47
+div
+div
+_c@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/src/components/ui/card.tsx:20:8
+Pipeline@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/src/components/cpu/Pipeline.tsx:40:18
+div
+div
+div
+div
+Architecture@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/src/pages/architecture.tsx:36:7
+Route@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=571edeae:191:13
+Switch@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=571edeae:247:14
+Router
+QueryClientProvider@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=571edeae:2804:27
+App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. 5 chunk-WERSD76P.js:14032:23
+Uncaught Error: `Tooltip` must be used within `TooltipProvider`
+    useContext2 createContext.tsx:75
+    Tooltip Tooltip.tsx:162
+    React 15
+    type use-browser-location.js:73
+    navigate use-browser-location.js:49
+    useLocationFromRouter index.js:93
+    ref react-deps.js:38
+    onClick index.js:284
+    ref react-deps.js:38
+    React 23
+    <anonymous> main.tsx:6
+chunk-PIMNZ2IF.js:44:13
+Firefox can’t establish a connection to the server at wss://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/. useSimulation.ts:57:14
+The connection to wss://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/ was interrupted while the page was loading. useSimulation.ts:57:14
+WebSocket error: 
+error { target: WebSocket, isTrusted: true, srcElement: WebSocket, currentTarget: WebSocket, eventPhase: 2, bubbles: false, cancelable: false, returnValue: true, defaultPrevented: false, composed: false, … }
+useSimulation.ts:79:19
+Disconnected from simulation server useSimulation.ts:87:19
+The connection to wss://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/ was interrupted while the page was loading. useSimulation.ts:57:14
+WebSocket error: 
+error { target: WebSocket, isTrusted: true, srcElement: WebSocket, currentTarget: WebSocket, eventPhase: 2, bubbles: false, cancelable: false, returnValue: true, defaultPrevented: false, composed: false, … }
+useSimulation.ts:79:19
+Disconnected from simulation server useSimulation.ts:87:19
+Connected to simulation server useSimulation.ts:59:19
+Connected to simulation server useSimulation.ts:59:19
