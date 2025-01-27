@@ -56,8 +56,8 @@ const Pipeline: React.FC<PipelineProps> = ({ state }) => {
   ];
 
   state.hazards.forEach((hazard, index) => {
-    const sourceId = getStageIdForInstruction(hazard.source);
-    const targetId = getStageIdForInstruction(hazard.destination);
+    const sourceId = getStageIdForInstruction(hazard.source, state);
+    const targetId = getStageIdForInstruction(hazard.destination, state);
 
     if (sourceId && targetId) {
       edges.push({
@@ -110,16 +110,12 @@ function createStageLabel(stage: string, instruction: Instruction | null): React
   );
 }
 
-function getStageIdForInstruction(instruction: Instruction): string | null {
-  const stages = ['fetch', 'decode', 'execute', 'memory', 'writeback'];
-
-  // Find which stage contains this instruction
-  for (const stage of stages) {
-    if (instruction === (pipeline as any)[stage]) {
-      return stage;
-    }
-  }
-
+function getStageIdForInstruction(instruction: Instruction, state: PipelineState): string | null {
+  if (state.fetch === instruction) return 'fetch';
+  if (state.decode === instruction) return 'decode';
+  if (state.execute === instruction) return 'execute';
+  if (state.memory === instruction) return 'memory';
+  if (state.writeback === instruction) return 'writeback';
   return null;
 }
 

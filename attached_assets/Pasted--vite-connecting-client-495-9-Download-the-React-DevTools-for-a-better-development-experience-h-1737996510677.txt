@@ -1,0 +1,93 @@
+[vite] connecting... client:495:9
+Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools chunk-WERSD76P.js:21551:25
+Uncaught ReferenceError: pipeline is not defined
+    getStageIdForInstruction Pipeline.tsx:118
+    Pipeline Pipeline.tsx:59
+    Pipeline Pipeline.tsx:58
+    React 11
+    workLoop scheduler.development.js:266
+    flushWork scheduler.development.js:239
+    performWorkUntilDeadline scheduler.development.js:533
+    js scheduler.development.js:571
+    js scheduler.development.js:633
+    __require chunk-4MBMRILA.js:11
+    js index.js:6
+    __require chunk-4MBMRILA.js:11
+    React 2
+    __require chunk-4MBMRILA.js:11
+    js React
+    __require chunk-4MBMRILA.js:11
+    js React
+    __require chunk-4MBMRILA.js:11
+    <anonymous> react-dom_client.js:38
+Pipeline.tsx:190:25
+Uncaught ReferenceError: pipeline is not defined
+    getStageIdForInstruction Pipeline.tsx:118
+    Pipeline Pipeline.tsx:59
+    Pipeline Pipeline.tsx:58
+    React 12
+    workLoop scheduler.development.js:266
+    flushWork scheduler.development.js:239
+    performWorkUntilDeadline scheduler.development.js:533
+    js scheduler.development.js:571
+    js scheduler.development.js:633
+    __require chunk-4MBMRILA.js:11
+    js index.js:6
+    __require chunk-4MBMRILA.js:11
+    React 2
+    __require chunk-4MBMRILA.js:11
+    js React
+    __require chunk-4MBMRILA.js:11
+    js React
+    __require chunk-4MBMRILA.js:11
+    <anonymous> react-dom_client.js:38
+Pipeline.tsx:190:25
+The above error occurred in the <Pipeline> component:
+
+Pipeline@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/src/components/cpu/Pipeline.tsx:24:18
+div
+div
+div
+div
+Architecture@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/src/pages/architecture.tsx:36:7
+Route@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=4d7cf64f:191:13
+Switch@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=4d7cf64f:247:14
+Router
+QueryClientProvider@https://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=2015bc57:2804:27
+App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. chunk-WERSD76P.js:14032:23
+Uncaught ReferenceError: pipeline is not defined
+    getStageIdForInstruction Pipeline.tsx:118
+    Pipeline Pipeline.tsx:59
+    Pipeline Pipeline.tsx:58
+    React 9
+    workLoop scheduler.development.js:266
+    flushWork scheduler.development.js:239
+    performWorkUntilDeadline scheduler.development.js:533
+    js scheduler.development.js:571
+    js scheduler.development.js:633
+    __require chunk-4MBMRILA.js:11
+    js index.js:6
+    __require chunk-4MBMRILA.js:11
+    React 2
+    __require chunk-4MBMRILA.js:11
+    js React
+    __require chunk-4MBMRILA.js:11
+    js React
+    __require chunk-4MBMRILA.js:11
+    <anonymous> react-dom_client.js:38
+Pipeline.tsx:190:25
+GET
+wss://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/
+NS_ERROR_WEBSOCKET_CONNECTION_REFUSED
+
+Firefox can’t establish a connection to the server at wss://18efff3d-f7a1-4b0e-8402-78a28c6c96fc-00-3j7h0omouykwx.picard.replit.dev/. client:535:19
+Uncaught (in promise) DOMException: An invalid or illegal string was specified
+    setupWebSocket client:535
+    fallback client:508
+    setupWebSocket client:551
+    setupWebSocket client:548
+    <anonymous> client:530
+client:535
