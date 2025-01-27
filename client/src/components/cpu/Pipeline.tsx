@@ -49,10 +49,10 @@ const Pipeline: React.FC<PipelineProps> = ({ state }) => {
   ];
 
   const edges: Edge[] = [
-    { id: 'f-d', source: 'fetch', target: 'decode' },
-    { id: 'd-e', source: 'decode', target: 'execute' },
-    { id: 'e-m', source: 'execute', target: 'memory' },
-    { id: 'm-w', source: 'memory', target: 'writeback' }
+    { id: 'f-d', source: 'fetch', target: 'decode', type: 'smoothstep' },
+    { id: 'd-e', source: 'decode', target: 'execute', type: 'smoothstep' },
+    { id: 'e-m', source: 'execute', target: 'memory', type: 'smoothstep' },
+    { id: 'm-w', source: 'memory', target: 'writeback', type: 'smoothstep' }
   ];
 
   state.hazards.forEach((hazard, index) => {
@@ -65,7 +65,8 @@ const Pipeline: React.FC<PipelineProps> = ({ state }) => {
         source: sourceId,
         target: targetId,
         animated: true,
-        style: { stroke: '#ff0000' }
+        style: { stroke: '#ff0000', strokeWidth: 2 },
+        type: 'smoothstep'
       });
     }
   });
@@ -78,6 +79,7 @@ const Pipeline: React.FC<PipelineProps> = ({ state }) => {
           nodes={nodes}
           edges={edges}
           fitView
+          defaultEdgeOptions={{ type: 'smoothstep' }}
         >
           <Background />
           <Controls />
