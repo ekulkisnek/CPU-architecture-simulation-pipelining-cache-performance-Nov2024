@@ -186,8 +186,18 @@ export class RISCVSimulator {
 
   private fetchNextInstruction(): Instruction {
     // Simplified instruction fetch that generates random instructions
-    const opcodes = Object.keys(OPCODE_MAP).map(k => parseInt(k, 16));
+    const opcodes = [0x33, 0x13, 0x23, 0x63, 0x37, 0x6F];  // Valid opcodes
     const opcode = opcodes[Math.floor(Math.random() * opcodes.length)];
+    if (!OPCODE_MAP[opcode]) {
+      return {
+        opcode: 0x33, // Default to ADD
+        rd: 0,
+        rs1: 0,
+        rs2: 0,
+        imm: 0,
+        type: 'R'
+      };
+    }
     
     const instruction: Instruction = {
       opcode,

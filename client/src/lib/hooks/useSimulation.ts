@@ -65,9 +65,9 @@ export function useSimulation() {
 
     const setupWebSocket = () => {
       try {
+        const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
         const host = window.location.hostname;
-        const port = 5000; // Server port
-        const wsUrl = `ws://${host}:${port}`;
+        const wsUrl = `${protocol}//${host}`;
         ws = new WebSocket(wsUrl);
 
         ws.onopen = () => {

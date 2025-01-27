@@ -8,8 +8,8 @@ export function registerRoutes(app: Express): Server {
   // Create WebSocket server
   const wss = new WebSocketServer({ 
     server: httpServer,
+    path: '/ws',
     verifyClient: (info, cb) => {
-      // Ignore vite HMR connections
       if (info.req.headers['sec-websocket-protocol'] === 'vite-hmr') {
         cb(false);
         return;
