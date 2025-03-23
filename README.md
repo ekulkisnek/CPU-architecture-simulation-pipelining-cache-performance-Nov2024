@@ -3,6 +3,9 @@
 
 An interactive web-based CPU architecture simulator that demonstrates pipelining, cache hierarchies, and performance metrics in real-time.
 
+![image](image.png)
+![image](image_2.png)
+
 ## Features
 
 - **RV32I Base Integer Instruction Set simulation**
